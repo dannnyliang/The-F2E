@@ -1,0 +1,34 @@
+.task-edit-button{
+  margin-left: -32px;
+  display: flex;
+}
+
+.cancel, .add{
+  flex: 1;
+  font-size: 24px;
+  padding: 16px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.cancel span, .add span{
+  padding-left: 5px;
+}
+
+.cancel{
+  color: #D0021B;
+  background-color: #fff;
+}
+.cancel:hover{
+  background-color: rgb(219, 219, 219);
+}
+
+.add{
+  color: #fff;
+  background-color: #4A90E2;
+}
+.add:hover{
+  background-color: rgb(63, 123, 190);
+}

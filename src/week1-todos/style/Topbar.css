@@ -1,0 +1,32 @@
+:root{
+  --blue: #4A90E2;
+  --dark-blue: #00408B;
+}
+
+.topbar{
+  display: flex;
+  justify-content: center;
+  background-color: var(--blue);
+}
+
+.topbar-options{
+  width: 160px;
+  height: 76px;
+  margin: 0px 30px;
+  font-size: 24px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.topbar-options a{
+  color: var(--dark-blue);
+  text-decoration: none;
+}
+
+.topbar-options:hover{
+  border-bottom: 5px solid var(--dark-blue);
+}
+.topbar-options:hover a{
+  color: white;
+}

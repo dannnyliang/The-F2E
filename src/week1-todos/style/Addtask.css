@@ -1,0 +1,21 @@
+.addtask{
+  background-color: #fff;
+  margin-bottom: 24px;
+}
+
+.addtask-top{
+  display: flex;
+  border-radius: 5px;
+}
+
+.icon-plus{
+  margin: 16px 0px 16px 32px;
+}
+
+.addtask-input{
+  border: none;
+  font-size: 24px;
+}
+input.addtask-input.form-control:focus{
+  outline: none;
+}

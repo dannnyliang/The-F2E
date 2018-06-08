@@ -1,0 +1,19 @@
+.task-edit{
+  padding-left: 44px;
+  padding-right: 24px;
+  text-align: left;
+  /* border-top: 1px solid grey; */
+}
+
+.form-group{
+  /* margin-top: 24px; */
+}
+
+.form-group-label{
+  display: flex;
+  align-items: center;
+}
+
+.calendar-input{
+  display: flex;
+}

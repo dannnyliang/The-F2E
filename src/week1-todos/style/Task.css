@@ -1,0 +1,30 @@
+.task-block{
+  margin-top: 24px;
+  padding: 24px 0px 0px 32px;
+}
+
+.task-top{
+  display: flex;
+  align-items: center;
+  padding-bottom: 24px;
+}
+
+p, del{
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0px auto 0px 16px;
+
+  text-align: left;
+  word-break: break-all;
+}
+del{
+  color: #9B9B9B;
+}
+
+.task-pencil{
+  margin: 0px 24px;
+}
+
+svg{
+  cursor: pointer;
+}
