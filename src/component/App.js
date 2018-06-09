@@ -11,12 +11,10 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Container fluid className="home">
 
         <Route exact path='/' component={Links} />
         <Route path='/week1' component={Week1} />
 
-        </Container>
       </div>
     );
   }
