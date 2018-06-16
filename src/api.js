@@ -1,7 +1,5 @@
-const serverURL = 'https://www.thef2e.com/api'
-
 export function signUpTotal() {
-  return fetch(serverURL + '/signUpTotal')
+  return fetch('https://www.thef2e.com/api/signUpTotal')
     .then(res => {
       return res.json()
     })

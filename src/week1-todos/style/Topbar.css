@@ -3,7 +3,7 @@
   --dark-blue: #00408B;
 }
 
-.topbar{
+.week1>.topbar{
   display: flex;
   justify-content: center;
   background-color: var(--blue);

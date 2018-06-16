@@ -8,7 +8,7 @@ import { Container, Row, Col } from 'reactstrap';
 class Week1 extends Component {
   render() {
     return (
-      <div style={{backgroundColor: "#E1E1E1"}}>
+      <div className="week1" style={{backgroundColor: "#E1E1E1"}}>
         <Topbar />
 
         <Container fluid style={{ paddingTop: '24px', minHeight: window.innerHeight + 'px'}}>

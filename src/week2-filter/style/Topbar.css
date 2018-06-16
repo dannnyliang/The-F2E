@@ -1,0 +1,31 @@
+.week2>.topbar{
+  background-color: #7828B4;
+  display: flex;
+}
+
+.logo{
+  background-image: url('../logo.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 152px;
+  height: 52px;
+  cursor: pointer;
+}
+
+.search{
+  display: flex;
+  align-items: center ;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 30vw;
+  border-bottom: 1px solid #fff;
+}
+
+input.search-input.form-control{
+  background-color: transparent;
+  border-width: 0px 0px 0px 0px;
+}
+input.search-input.form-control::placeholder{
+  color: rgba(255,255,255,0.5);
+  font-style: italic;
+}
