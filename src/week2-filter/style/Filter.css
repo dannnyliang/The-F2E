@@ -1,3 +1,10 @@
-.filter{
+.week2 .filter{
   background-color: #EBEBEB;
+  margin: 0px 38px;
+  padding: 10px 40px;
+}
+
+label{
+  font-size: 20px;
+  font-weight: bold;
 }

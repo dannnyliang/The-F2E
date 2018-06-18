@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import Topbar from './component/Topbar';
-import Filter from './component/Filter';
+import FilterContainer from './component/FilterContainer';
 
-import { Container, Row, Col } from 'reactstrap';
+import { Container } from 'reactstrap';
 
 class Week2 extends Component {
   render() {
@@ -11,7 +11,7 @@ class Week2 extends Component {
         <Topbar />
 
         <Container fluid style={{ padding: '0px', minHeight: window.innerHeight + 'px' }}>
-          <Filter />
+          <FilterContainer />
         </Container>
       </div>
     );

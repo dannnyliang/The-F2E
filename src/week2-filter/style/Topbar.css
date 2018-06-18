@@ -3,7 +3,7 @@
   display: flex;
 }
 
-.logo{
+.week2 .logo{
   background-image: url('../logo.png');
   background-repeat: no-repeat;
   background-position: center center;
@@ -12,7 +12,7 @@
   cursor: pointer;
 }
 
-.search{
+.week2 .search{
   display: flex;
   align-items: center ;
   margin-top: 10px;
