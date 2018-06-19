@@ -23,8 +23,8 @@ class Linkgroup extends React.Component {
         },
         {
           id: 'week3',
-          status: false,
-          theme: '???'
+          status: true,
+          theme: 'Admin Order'
         },
         {
           id: 'week4',

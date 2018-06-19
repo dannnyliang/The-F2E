@@ -15,15 +15,17 @@ class BlockContainer extends React.Component{
   }
   
   render () {
-    const sample = this.props.allSite[0]
+    const sample = this.props.allSite
+    // console.log(ssample);
+    // const ssample = this.props.allSite[0]
     let block = ''
     if (sample !== undefined){
-      block = <Block 
-        name={sample.Name} description={sample.Description}
-        pic={sample.Picture1} zone={sample.Zone} 
-        optime={sample.Opentime} ></Block>
+      block = sample.map(site => 
+        <Block
+          name={site.Name} description={site.Description}
+          pic={site.Picture1} zone={site.Zone}
+          optime={site.Opentime} ></Block>)
       console.log(sample);
-
     }
     return (
       <Col md='8'>

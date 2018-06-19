@@ -1,6 +1,6 @@
 import React from 'react';
-import FontAwesomeIcon from '@fortawesome/react-fontawesome';
-import { faCheckSquare } from '@fortawesome/fontawesome-free-solid'
+// import FontAwesomeIcon from '@fortawesome/react-fontawesome';
+// import { faCheckSquare } from '@fortawesome/fontawesome-free-solid'
 
 
 import '../style/Filter.css'
