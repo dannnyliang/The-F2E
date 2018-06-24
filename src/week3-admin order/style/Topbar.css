@@ -1,0 +1,34 @@
+.week3 *{
+  font-family: Helvetica;
+}
+
+.week3 .navbar{
+  background-color: #000;
+  font-weight: bold;
+  color: #fff;
+  padding: 0;
+}
+
+.week3 .navbar a{
+  color: #fff;
+}
+.week3 .navbar a:hover{
+  text-decoration: none;
+}
+
+.week3 .navbar-brand{
+  padding-left: 24px;
+  font-size: 24px;
+}
+
+.week3 .nav-item{
+  height: 70px;
+  font-size: 16px;
+  margin: 0px 20px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+.week3 .nav-item:hover{
+  border-bottom: 4px solid #fff;
+}

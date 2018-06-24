@@ -1,5 +1,4 @@
-import React, { Component } from 'react';
-import { withRouter } from 'react-router-dom';
+import React from 'react';
 
 const Order = () => {
   return (
@@ -9,4 +8,4 @@ const Order = () => {
   )
 }
 
-export default withRouter(Order)
+export default Order

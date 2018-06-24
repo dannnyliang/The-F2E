@@ -11,7 +11,7 @@ import Week3 from '../week3-admin order/Week3';
 class App extends Component {
   render() {
     return (
-      <div>
+      <div className="home">
 
         <Route exact path='/' component={Linkgroup} />
         <Route path='/week1' component={Week1} />

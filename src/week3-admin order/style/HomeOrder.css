@@ -1,0 +1,12 @@
+.week3 .homeorder{
+  padding: 20px 42px;
+}
+
+.week3 .homeorderitem{
+  border-bottom: 1px solid #EBEBEB;
+}
+
+.week3 .homeorderitem-icon{
+  margin-left: 4px;
+  margin-right: 12px;
+}
