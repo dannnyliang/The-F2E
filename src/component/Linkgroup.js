@@ -1,6 +1,6 @@
 import React from 'react';
 import Linkitem from "./Linkitem";
-import { signUpTotal } from '../api';
+import { signUpTotal, stageCheck } from '../api';
 import { Container, Row, Col, Jumbotron, ListGroup } from 'reactstrap';
 
 import '../style/Linkgroup.css'
@@ -28,8 +28,8 @@ class Linkgroup extends React.Component {
         },
         {
           id: 'week4',
-          status: false,
-          theme: '???'
+          status: true,
+          theme: 'Product Gallery'
         },
         {
           id: 'week5',
@@ -61,14 +61,26 @@ class Linkgroup extends React.Component {
   }
   
   componentWillMount() {
-    signUpTotal().then(res => { 
+    const email = {
+      "email": 'youchenliang@gmail.com'
+    }
+    signUpTotal()
+      .then(res => { 
       this.setState({signuptotal: res.total})
     })
+
+    stageCheck(email)
+      .then(res => { 
+        const passStage = this.state.challenges.map((item ,i) => Object.assign(item, res[i]))
+        this.setState({challenges: passStage})
+        console.log(this.state.challenges);
+      })
   }
   
   render () {
     const linkgroup = this.state.challenges.map((week, i) => 
-      <Linkitem index={i} id={week.id} enable={week.status} theme={week.theme} />
+      <Linkitem key={i} index={i} id={week.id} enable={week.status} theme={week.theme}
+        timestamp={week.timeStamp} tag={week.tag} />
     )
 
     return (

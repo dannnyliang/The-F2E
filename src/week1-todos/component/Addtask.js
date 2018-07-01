@@ -29,7 +29,7 @@ class Addtask extends React.Component {
           onFocus={this.toggleFocus.bind(this)} />
         </div>
           {this.state.isFocus ? 
-          <div style={{ paddingLeft: '32px', backgroundColor: '#f2f2f2', borderTop: "1px solid grey"}}>
+          <div style={{ padding: '16px 0px 0px 32px', backgroundColor: '#f2f2f2', borderTop: "1px solid grey"}}>
             <Taskedit />
             <Taskbutton/>
           </div>:''}

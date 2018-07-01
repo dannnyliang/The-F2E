@@ -1,0 +1,103 @@
+.week4 *{
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+}
+
+.week4 .container-fluid{
+  display: grid;
+  grid-template-columns: auto repeat(8, 120px) auto;
+  grid-template-rows: 32px repeat(20, 100px) 32px;
+}
+
+.week4 .top{
+  text-align: center;
+  grid-area: 2 / 2 / 3 / 10;
+}
+
+.week4 .logo-wrap{
+  height: 100%;
+  font-size: 72px;
+  font-weight: bold;
+}
+
+.week4 .logo{
+  margin: 0 40%;
+  font-size: 20px;
+  line-height: 20px;
+  color: #fff;
+  background-color: #000;
+}
+
+.week4 .logo-word{
+  line-height: 72px;
+}
+
+/* utility */
+.week4 .title{
+  position: absolute;
+  text-shadow: 0px -20px rgba(0,0,0,0.3);
+}
+.week4 .lgword{
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: bold;
+}
+.week4 .smword{
+  position: absolute;
+  font-size: 24px;
+  font-style: italic;
+  line-height: 28px;
+  font-weight: bold;
+  display: inline-block;
+}
+.week4 .italic{
+  background-image: url('../img/pattern unit.png');
+  background-position: center center;
+  width: 240px;
+  height: 100px;
+  display: inline-block;
+}
+.week4 .rect-stroke{
+  position: absolute;
+  border: 20px solid #50E3C2;
+}
+.week4 .rect-fill{
+  position: absolute;
+  background-color: #50E3C2;
+}
+
+
+
+/* SESSION2 */
+
+
+/* SESSION1 */
+.week4 .session3{
+  border: 1px solid #000;
+  grid-area: 9 / 2 / 13 / 7;
+}
+
+/* SESSION1 */
+.week4 .session4{
+  border: 1px solid #000;
+  grid-area: 8 / 7 / 15 / 10;
+}
+
+/* SESSION1 */
+.week4 .session5{
+  border: 1px solid #000;
+  grid-area: 13 / 2 / 17 / 7;
+}
+
+/* SESSION1 */
+.week4 .session6{
+  border: 1px solid #000;
+  grid-area: 15 / 5 / 21 / 10;
+}
+
+/* SESSION1 */
+.week4 .session7{
+  border: 1px solid #000;
+  grid-area: 17 / 2 / 22 / 5;
+}
+
