@@ -8,10 +8,8 @@ const Session1 = () => {
       <div className="rect-stroke"></div>
       <div className="pic"></div>
       <div className="lgword title">LINEN BLAZER</div>
-      <div className="set">
-        <span className="lgword num">01</span>
-        <div className="italic"></div>
-      </div>
+      <span className="lgword num">01</span>
+      <div className="italic"></div>
       <div className="smword">Men’s outfit</div>
     </div>
   )

@@ -1,0 +1,43 @@
+/* SESSION4 */
+.week4 .session4{
+  grid-area: 8 / 7 / 15 / 10;
+}
+
+.session4 .pic{
+  background-image: url('https://images.unsplash.com/photo-1484516758160-69878111a911');
+  background-size: cover;
+  background-position: center center;
+  width: 240px;
+  height: 400px;
+  margin-left: 120px;
+  margin-top: 200px;
+}
+
+.session4 .num{
+  right: 240px;
+  bottom: 100px;
+}
+
+.session4 .title{
+  top: 200px;
+  right: 240px;
+  transform: rotate(-90deg);
+}
+
+.session4 .smword{
+  writing-mode: tb-rl;
+  left: 290px;
+  bottom: 520px;
+}
+
+.session4 .rect-stroke{
+  width: 240px;
+  height: 200px;
+  top: 100px;
+  left: 60px;
+}
+
+.session4 .italic{
+  bottom: 50px;
+  left: 120px;
+}

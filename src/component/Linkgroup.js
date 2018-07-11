@@ -33,13 +33,13 @@ class Linkgroup extends React.Component {
         },
         {
           id: 'week5',
-          status: false,
-          theme: '???'
+          status: true,
+          theme: 'Comic Viewer'
         },
         {
           id: 'week6',
-          status: false,
-          theme: '???'
+          status: true,
+          theme: 'Validation'
         },
         {
           id: 'week7',

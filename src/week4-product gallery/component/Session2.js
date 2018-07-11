@@ -12,11 +12,6 @@ const Session2 = () => {
       <span className="lgword num">02</span>
       <div className="smword">Men’s basics</div> 
 
-      {/* 
-      <div className="set">
-        <div className="italic"></div>
-      </div>
-      */}
     </div>
   )
 }

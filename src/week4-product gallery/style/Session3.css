@@ -1,0 +1,39 @@
+/* SESSION3 */
+.week4 .session3{
+  grid-area: 9 / 2 / 13 / 7;
+}
+
+.session3 .pic{
+  background-image: url('https://images.unsplash.com/photo-1496345875659-11f7dd282d1d');
+  background-size: cover;
+  background-position: center center;
+  width: 480px;
+  height: 200px;
+  margin-top: 100px;
+}
+
+.session3 .num{
+  left: 480px;
+}
+
+.session3 .title{
+  right: 120px;
+  bottom: 300px;
+}
+
+.session3 .smword{
+  right: 360px;
+}
+
+.session3 .rect-stroke{
+  width: 240px;
+  height: 200px;
+  left: 300px;
+  top: 150px;
+}
+
+.session3 .rect-fill{
+  width: 240px;
+  height: 50px;
+  top: 50px;
+}

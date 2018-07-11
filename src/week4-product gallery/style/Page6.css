@@ -1,0 +1,92 @@
+.page6{
+  display: grid;
+  grid-template-columns: auto repeat(8, 120px) auto;
+  grid-template-rows: 32px repeat(20, 100px) 32px;
+}
+
+.page6 .goback{
+  grid-area: 2 / 2 / 3 / 5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page6 .goback span{
+  color: #fff;
+  background-color: #000;
+  font-weight: bold;
+  padding: 0px 5px;
+  margin-left: 10px;
+}
+
+/* SESSION TOP */
+.page6 .session-top{
+  grid-area: 3 / 2 / 9 / 10;
+}
+
+.page6 .session-top .pic{
+  background-image: url('https://images.unsplash.com/photo-1519406709381-c1f293304b28');
+  background-size: cover;
+  background-position: center center;
+  width: 720px;
+  height: 400px;
+  margin-top: 100px;
+  margin-left: 120px;
+}
+
+.page6 .session-top .rect-fill{
+  width: 240px;
+  height: 200px;
+  top: 50px;
+  left: 60px;
+}
+.page6 .session-top .rect-stroke{
+  width: 480px;
+  height: 200px;
+  bottom: 50px;
+  right: 60px;
+}
+
+.page6 .session-top .a{
+  position: absolute;
+  bottom: 500px;
+  right: 120px;
+}
+
+.page6 .session-top .b{
+  writing-mode: tb-rl;
+  position: absolute;
+  left: 840px;
+  top: 100px;
+}
+
+.page6 .session-top .c{
+  writing-mode: tb-rl;
+  position: absolute;
+  right: 840px;
+  bottom: 100px;
+}
+.page6 .session-top .d{
+  position: absolute;
+  transform:rotate(-180deg);
+  left: 120px;
+}
+
+/* SESSION TEXT */
+.page6 .session-text{
+  grid-area: 10 / 3 / 14 / 9;
+}
+
+.page6 .session-text .smword{
+  writing-mode: tb-rl;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.page6 .session-text .text-content{
+  padding-left: 120px;
+}
+
+.page6 .session-text .mdword{
+  font-size: 24px;
+}
+/* SESSION BOTTOM */
