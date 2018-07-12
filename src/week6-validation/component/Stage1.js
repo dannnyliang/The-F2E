@@ -7,26 +7,40 @@ import Input from './Input';
 function Stage1() {
   return (
     <div>
-      <Header title={'Create Account'} subtitle={'Glad to see you here!'} />
+      <Col sm={{ size: 6, offset: 3 }} style={{ borderTop: '4px solid #007bff' }}>
+        <div className="stepbar">
+          <div className="barwrap">
+            <div className="bar" />
+            <div className="bar" />
+            <div className="bar" />
+          </div>
+          <div className="step active">
+            <div className="instep" />
+          </div>
+          <div className="step" />
+          <div className="step" />
+          <div className="step" />
+        </div>
 
-      <Col sm={{size: 6, offset: 3}} >
+        <Header title={'Create Account'} subtitle={'Glad to see you here!'} />
+
         <Form>
           <label for='Account' >Account</label>
-          <Input 
+          <Input
             type={'email'}
-            id={'Account'} 
+            id={'Account'}
             placeholder={'example@email.com'}
           />
           <label for='password' >password</label>
-          <Input 
+          <Input
             type={'password'}
-            id={'Password'} 
+            id={'Password'}
             placeholder={'●●●●●●●●'}
           />
           <label for='Comfirm Password' >Comfirm Password</label>
-          <Input 
+          <Input
             type={'password'}
-            id={'Comfirm Password'} 
+            id={'Comfirm Password'}
             placeholder={'●●●●●●●●'}
           />
           <Link to="/week6/stage2">

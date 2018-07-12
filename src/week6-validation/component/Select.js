@@ -4,7 +4,7 @@ import '../style/Select.css'
 function Select(props) {
 
   let options = [<option value='' disabled selected >{props.placeholder}</option>]
-  for (let i = props.start; i < props.end; i++) {
+  for (let i = props.start; i <= props.end; i++) {
     options.push(<option value={i}>{i}</option>)
   }
 
