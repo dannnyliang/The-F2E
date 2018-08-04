@@ -25,19 +25,19 @@ function Stage1() {
         <Header title={'Create Account'} subtitle={'Glad to see you here!'} />
 
         <Form>
-          <label for='Account' >Account</label>
+          <label for="Account" >Account</label>
           <Input
             type={'email'}
             id={'Account'}
             placeholder={'example@email.com'}
           />
-          <label for='password' >password</label>
+          <label for="password" >password</label>
           <Input
             type={'password'}
             id={'Password'}
             placeholder={'●●●●●●●●'}
           />
-          <label for='Comfirm Password' >Comfirm Password</label>
+          <label for="Comfirm Password" >Comfirm Password</label>
           <Input
             type={'password'}
             id={'Comfirm Password'}

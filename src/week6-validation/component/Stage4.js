@@ -10,7 +10,6 @@ import Select from './Select';
 function Stage4() {
   return (
     <div>
-
       <Col sm={{ size: 6, offset: 3 }} style={{ borderTop: '4px solid #007bff' }}>
         <div className="stepbar">
           <div className="barwrap">
@@ -19,13 +18,13 @@ function Stage4() {
             <div className="bar active" />
           </div>
           <div className="step active done">
-            <FontAwesomeIcon icon={faCheck} color='#fff' size="xs" />
+            <FontAwesomeIcon icon={faCheck} color="#fff" size="xs" />
           </div>
           <div className="step active done">
-            <FontAwesomeIcon icon={faCheck} color='#fff' size="xs" />
+            <FontAwesomeIcon icon={faCheck} color="#fff" size="xs" />
           </div>
           <div className="step active done">
-            <FontAwesomeIcon icon={faCheck} color='#fff' size="xs" />
+            <FontAwesomeIcon icon={faCheck} color="#fff" size="xs" />
           </div>
           <div className="step active">
             <div className="instep" />
@@ -36,8 +35,8 @@ function Stage4() {
 
         <Form>
           <Row>
-            <Col sm='12'>
-              <label for='card-number'>Card Number</label>
+            <Col sm="12">
+              <label for="card-number">Card Number</label>
               <Input
                 type={'number'}
                 id={'card-number'}
@@ -47,16 +46,16 @@ function Stage4() {
           </Row>
 
           <Row>
-            <Col sm='6'>
-              <label for='card-name'>Cardholder Name</label>
+            <Col sm="6">
+              <label for="card-name">Cardholder Name</label>
               <Input
                 type={'text'}
                 id={'card-name'}
                 placeholder={'EXAMPLE NAME'}
               />
             </Col>
-            <Col sm='6'>
-              <label for='bank-name'>Bank Name</label>
+            <Col sm="6">
+              <label for="bank-name">Bank Name</label>
               <Input
                 type={'text'}
                 id={'bank-name'}
@@ -66,16 +65,16 @@ function Stage4() {
           </Row>
 
           <Row>
-            <Col sm='4'>
-              <label for='cvv'>CVV</label>
+            <Col sm="4">
+              <label for="cvv">CVV</label>
               <Input
                 type={'text'}
                 id={'cvv'}
                 placeholder={'123'}
               />
             </Col>
-            <Col sm='4'>
-              <label for='expire-date-year'>Expire Date</label>
+            <Col sm="4">
+              <label for="expire-date-year">Expire Date</label>
               <Select
                 id={'expire-date-year'}
                 start={2018}
@@ -83,8 +82,8 @@ function Stage4() {
                 placeholder={'YYYY'}
               />
             </Col>
-            <Col sm='4'>
-              <label for='expire-date-year' style={{opacity: 0}} >Expire Date</label>
+            <Col sm="4">
+              <label for="expire-date-year" style={{ opacity: 0 }} >Expire Date</label>
               <Select
                 id={'expire-date-month'}
                 start={1}

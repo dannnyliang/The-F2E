@@ -1,5 +1,5 @@
 import React from 'react';
-import '../style/Header.css'
+import '../style/Header.css';
 
 function Header(props) {  
   return (
@@ -11,7 +11,7 @@ function Header(props) {
         {props.subtitle}
       </div>
     </div>
-  )
+  );
 }
 
 export default Header;

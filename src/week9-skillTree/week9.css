@@ -1,0 +1,13 @@
+:root{
+  --purple-light: #8000FF;
+  --purple: #6900D1;
+  --purple-dark: #35006A;
+  --purple-darker: #250060;
+
+  
+}
+
+.week9 * {
+  font-family: 'Roboto', sans-serif;
+  /* border: 1px solid #fff; */
+}

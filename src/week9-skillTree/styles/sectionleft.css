@@ -1,0 +1,32 @@
+.week9 .section-header{
+  color: #FF0093;
+  font-size: 48px;
+  line-height: 54px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.week9 .current-rank{
+  padding: 24px 0;
+}
+
+.week9 .current-rank span{
+  background-color: var(--purple-light);
+  color: var(--purple-darker);
+  padding: 4px 16px;
+}
+
+.week9 .current-rank .rank-name{
+  text-decoration: underline;
+  text-decoration-color: var(--purple-light);
+  color: #fff;
+  font-size: 36px;
+}
+
+.week9 .ship{
+  width: 100%;
+  padding-top: 80%;
+  background-image: url('../img/img-ship-noob.png');
+  background-repeat: no-repeat;
+  background-position: 0 center;
+}

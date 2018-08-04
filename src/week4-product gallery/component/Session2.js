@@ -1,19 +1,17 @@
 import React from 'react';
-import '../style/Session2.css'
+import '../style/Session2.css';
 
-const Session2 = () => {
-  return (
-    <div className="session2">
+const Session2 = () => (
+  <div className="session2">
 
-      <div className="rect-stroke"></div>
-      <div className="rect-fill"></div>
-      <div className="pic"></div>
-      <div className="lgword title">FREELIFT</div>
-      <span className="lgword num">02</span>
-      <div className="smword">Men’s basics</div> 
+    <div className="rect-stroke" />
+    <div className="rect-fill" />
+    <div className="pic" />
+    <div className="lgword title">FREELIFT</div>
+    <span className="lgword num">02</span>
+    <div className="smword">Men’s basics</div>
 
-    </div>
-  )
-}
+  </div>
+);
 
-export default Session2
+export default Session2;

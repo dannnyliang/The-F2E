@@ -18,7 +18,7 @@ function Stage2() {
             <div className="bar" />
           </div>
           <div className="step active done">
-            <FontAwesomeIcon icon={faCheck} color='#fff' size="xs" />
+            <FontAwesomeIcon icon={faCheck} color="#fff" size="xs" />
           </div>
           <div className="step active">
             <div className="instep" />
@@ -31,16 +31,16 @@ function Stage2() {
 
         <Form>
           <Row>
-            <Col sm='6' >
-              <label for='name'>Name (optional)</label>
+            <Col sm="6" >
+              <label for="name" >Name (optional)</label>
               <Input
                 type={'text'}
                 id={'name'}
                 placeholder={'Example Name'}
               />
             </Col>
-            <Col sm='6' >
-              <label for='phone'>Phone*</label>
+            <Col sm="6" >
+              <label for="phone">Phone*</label>
               <Input
                 type={'text'}
                 id={'phone'}
@@ -49,41 +49,44 @@ function Stage2() {
             </Col>
           </Row>
 
-          <label for='birth'>Birth Date (optional)</label>
+          <label for="birth">Birth Date (optional)</label>
           <Row>
-            <Col sm='4'>
+            <Col sm="4">
               <Select
                 id={'birth-year'}
                 start={1900}
                 end={2018}
-                placeholder={'YYYY'} />
+                placeholder={'YYYY'} 
+              />
             </Col>
-            <Col sm='4'>
+            <Col sm="4">
               <Select
                 id={'birth-month'}
                 start={1}
                 end={12}
-                placeholder={'MM'} />
+                placeholder={'MM'} 
+              />
             </Col>
-            <Col sm='4'>
+            <Col sm="4">
               <Select
                 id={'birth-month'}
                 start={1}
                 end={31}
-                placeholder={'DD'} />
+                placeholder={'DD'} 
+              />
             </Col>
           </Row>
 
-          <label for='address'>Address*</label>
+          <label for="address">Address*</label>
           <Row>
-            <Col sm='6' >
+            <Col sm="6" >
               <Input
                 type={'text'}
                 id={'city'}
                 placeholder={'City'}
               />
             </Col>
-            <Col sm='6' >
+            <Col sm="6" >
               <Input
                 type={'text'}
                 id={'dist'}
@@ -92,7 +95,7 @@ function Stage2() {
             </Col>
           </Row>
           <Row>
-            <Col sm='12' >
+            <Col sm="12" >
               <Input
                 type={'text'}
                 id={'ad-detail'}

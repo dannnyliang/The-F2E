@@ -5,38 +5,43 @@ import Taskedit from './Taskedit';
 import Taskbutton from './Taskbutton';
 
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
-import { faPlus } from '@fortawesome/fontawesome-free-solid'
-import '../style/Addtask.css'
+import { faPlus } from '@fortawesome/fontawesome-free-solid';
+import '../style/Addtask.css';
 
 class Addtask extends React.Component {
-  constructor (props) {
-    super(props)
+  constructor(props) {
+    super(props);
     this.state = {
-      isFocus: false
-    }
+      isFocus: false,
+    };
+
+    this.toggleFocus = this.toggleFocus.bind(this);
   }
 
   toggleFocus() {
-    this.setState({isFocus: !this.state.isFocus})
+    this.setState({ isFocus: !this.state.isFocus });
   }
 
-  render () {
+  render() {
     return (
       <div className="addtask">
         <div className="addtask-top">
           <FontAwesomeIcon icon={faPlus} size="2x" color="grey" className="icon-plus" />
-          <Input className="addtask-input" placeholder="Add Task" 
-          onFocus={this.toggleFocus.bind(this)} />
+          <Input 
+            className="addtask-input" 
+            placeholder="Add Task"
+            onFocus={this.toggleFocus} 
+          />
         </div>
-          {this.state.isFocus ? 
-          <div style={{ padding: '16px 0px 0px 32px', backgroundColor: '#f2f2f2', borderTop: "1px solid grey"}}>
+        {this.state.isFocus ?
+          <div style={{ padding: '16px 0px 0px 32px', backgroundColor: '#f2f2f2', borderTop: '1px solid grey' }}>
             <Taskedit />
-            <Taskbutton/>
-          </div>:''}
-        
+            <Taskbutton />
+          </div> : ''}
+
       </div>
-    )
+    );
   }
 }
 
-export default Addtask
+export default Addtask;

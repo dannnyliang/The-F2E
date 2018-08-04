@@ -1,20 +1,23 @@
-import React, { Component } from 'react';
-import { Container, Row, Col  } from 'reactstrap';
+import React from 'react';
+import { Container, Row, Col } from 'reactstrap';
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
-import { faMoneyBill, faHandHoldingUsd, faBoxes, faCaretRight } from '@fortawesome/fontawesome-free-solid'
+import { 
+  faMoneyBill, 
+  faHandHoldingUsd, 
+  faBoxes, 
+  faCaretRight } from '@fortawesome/fontawesome-free-solid';
 
 import Chart from './Chart';
 import Transaction from './Transaction';
 import HomeOrder from './HomeOrder';
-  
-import '../style/Home.css'
 
-class Home extends Component {
-  render () {
-    return (
-      <Container>
-        <div>
-          <div className="d-flex justify-content-between pt-4 align-items-end">
+import '../style/Home.css';
+
+function Home() {
+  return (
+    <Container>
+      <div>
+        <div className="d-flex justify-content-between pt-4 align-items-end">
           <div class="area-head">OVERVIEW</div>
           <div>
             2018/6/6
@@ -37,9 +40,9 @@ class Home extends Component {
                 TOTAL REVENUE
               </span>
             </div>
-              <span className="overview-num arrow-up">54540</span>
+            <span className="overview-num arrow-up">54540</span>
           </Col>
-            <div style={{ width: "20px" }}></div>
+          <div style={{ width: '20px' }} />
           <Col className="overview-item area">
             <div>
               <FontAwesomeIcon className="fa-lg mr-2" icon={faBoxes} />
@@ -47,9 +50,9 @@ class Home extends Component {
                 TOTAL COST
               </span>
             </div>
-              <span className="overview-num arrow-down">12260</span>
+            <span className="overview-num arrow-down">12260</span>
           </Col>
-            <div style={{ width: "20px" }}></div>
+          <div style={{ width: '20px' }} />
           <Col className="overview-item area">
             <div>
               <FontAwesomeIcon className="fa-lg mr-2" icon={faMoneyBill} />
@@ -57,22 +60,21 @@ class Home extends Component {
                 NET INCOME
               </span>
             </div>
-              <span className="overview-num text-blue">41880</span>
+            <span className="overview-num text-blue">41880</span>
           </Col>
         </Row>
-        </div>
+      </div>
 
-        <Chart />
+      <Chart />
 
-        <Row>
-          <Transaction />
-          <div style={{width:"20px"}}></div>
-          <HomeOrder />
-        </Row>
-        
-      </Container>
-    )
-  }
+      <Row>
+        <Transaction />
+        <div style={{ width: '20px' }} />
+        <HomeOrder />
+      </Row>
+
+    </Container>
+  );
 }
 
-export default Home
+export default Home;

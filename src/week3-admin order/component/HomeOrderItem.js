@@ -3,12 +3,10 @@ import { Row, Col } from 'reactstrap';
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 
 const HomeOrderItem = (props) => {
-  const amount = props.amount.replace(/(\d{1,3})(?=(\d{3})+$)/g, function ($1) {
-    return $1 = $1 + ','
-  })
-  return(
-    <Row className="homeorderitem pb-1 my-3"> 
-      <Col md='3'>
+  const amount = props.amount.replace(/(\d{1,3})(?=(\d{3})+$)/g, $1 => `${$1},`);
+  return (
+    <Row className="homeorderitem pb-1 my-3">
+      <Col md="3">
         <img src={`https://fakeimg.pl/100x100/?text=${props.product}`} alt={props.product} />
       </Col>
       <Col>
@@ -21,7 +19,7 @@ const HomeOrderItem = (props) => {
               {props.buytime}
             </div>
             <div className="my-1">
-              <FontAwesomeIcon icon={props.person} className="fa-lg homeorderitem-icon"/>
+              <FontAwesomeIcon icon={props.person} className="fa-lg homeorderitem-icon" />
               {props.buyer}
             </div>
           </div>
@@ -34,7 +32,7 @@ const HomeOrderItem = (props) => {
         </div>
       </Col>
     </Row>
-  )
-}
+  );
+};
 
-export default HomeOrderItem
+export default HomeOrderItem;

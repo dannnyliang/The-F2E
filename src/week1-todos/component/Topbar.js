@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import '../style/Topbar.css'
+import '../style/Topbar.css';
 
 const Topbar = () => (
   <div className="topbar">
@@ -17,6 +17,6 @@ const Topbar = () => (
     </div>
 
   </div>
-)
+);
 
-export default Topbar
+export default Topbar;

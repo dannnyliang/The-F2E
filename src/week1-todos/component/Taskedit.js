@@ -5,7 +5,7 @@ import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 import { faPlusSquare } from '@fortawesome/fontawesome-free-solid';
 import { faCalendarAlt, faFile, faComment } from '@fortawesome/fontawesome-free-regular';
 
-import '../style/Taskedit.css'
+import '../style/Taskedit.css';
 
 const TaskEdit = () => (
   <div className="task-edit">
@@ -43,6 +43,6 @@ const TaskEdit = () => (
 
     {/* <Taskbutton /> */}
   </div>
-)
+);
 
-export default TaskEdit
+export default TaskEdit;

@@ -15,21 +15,21 @@ function Complete() {
             <div className="bar active" />
           </div>
           <div className="step active done">
-            <FontAwesomeIcon icon={faCheck} color='#fff' size="xs" />
+            <FontAwesomeIcon icon={faCheck} color="#fff" size="xs" />
           </div>
           <div className="step active done">
-            <FontAwesomeIcon icon={faCheck} color='#fff' size="xs" />
+            <FontAwesomeIcon icon={faCheck} color="#fff" size="xs" />
           </div>
           <div className="step active done">
-            <FontAwesomeIcon icon={faCheck} color='#fff' size="xs" />
+            <FontAwesomeIcon icon={faCheck} color="#fff" size="xs" />
           </div>
           <div className="step active done">
-            <FontAwesomeIcon icon={faCheck} color='#fff' size="xs" />
+            <FontAwesomeIcon icon={faCheck} color="#fff" size="xs" />
           </div>
         </div>
 
         <Header title={'Congratulations'} subtitle={'Now you’re one of us!'} />
-        <FontAwesomeIcon icon={faSmile} color='#BEE1FF' size='10x' />
+        <FontAwesomeIcon icon={faSmile} color="#BEE1FF" size="10x" />
         <div style={{ color: '#0275D8', fontStyle: 'italic', margin: '30px 0' }} >Redirected to homepage after 5 seconds…</div>
       </Col>
     </div>
