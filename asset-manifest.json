@@ -1,7 +1,12 @@
 {
-  "main.css": "static/css/main.47bfc3b9.css",
-  "main.css.map": "static/css/main.47bfc3b9.css.map",
-  "main.js": "static/js/main.77a8c81d.js",
-  "main.js.map": "static/js/main.77a8c81d.js.map",
-  "static/media/cover.jpg": "static/media/cover.433a513b.jpg"
+  "main.css": "static/css/main.cb626e24.css",
+  "main.css.map": "static/css/main.cb626e24.css.map",
+  "main.js": "static/js/main.63e73936.js",
+  "main.js.map": "static/js/main.63e73936.js.map",
+  "static\\media\\MaterialIcons-Regular.eot": "static/media/MaterialIcons-Regular.e79bfd88.eot",
+  "static\\media\\MaterialIcons-Regular.ttf": "static/media/MaterialIcons-Regular.a37b0c01.ttf",
+  "static\\media\\MaterialIcons-Regular.woff": "static/media/MaterialIcons-Regular.012cf6a1.woff",
+  "static\\media\\MaterialIcons-Regular.woff2": "static/media/MaterialIcons-Regular.570eb838.woff2",
+  "static\\media\\cover.jpg": "static/media/cover.433a513b.jpg",
+  "static\\media\\img-ship-noob.png": "static/media/img-ship-noob.d2009271.png"
 }
