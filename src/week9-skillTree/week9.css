@@ -4,7 +4,18 @@
   --purple-dark: #35006A;
   --purple-darker: #250060;
 
-  
+  --pink: #FF0093;
+  --pink-dark: #D10079;
+
+  --mask: rgba(255, 255, 255, 0.2);
+  --mask-disable: rgba(255, 255, 255, 0.1);
+  --mask-complete: rgba(0, 0, 0, 0.1);
+}
+
+@import '~material-design-icons/iconfont/material-icons.css';
+
+.material-icons {
+  font-family: 'Material Icons' !important;
 }
 
 .week9 * {

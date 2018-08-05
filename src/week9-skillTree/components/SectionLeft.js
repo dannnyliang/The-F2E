@@ -1,4 +1,5 @@
 import React from 'react';
+import DialogBlock from './DialogBlock/';
 import '../styles/sectionleft.css';
 
 function SectionLeft() {
@@ -16,6 +17,7 @@ function SectionLeft() {
       </div>
 
       <div className="ship" />
+      <DialogBlock />
     </div>
   );
 }

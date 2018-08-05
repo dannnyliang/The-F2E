@@ -1,0 +1,24 @@
+.week9 .tree{
+  width: 100px;
+  height: 100px;
+}
+
+.week9 .tree-disable{
+  opacity: 0.2;
+}
+
+.week9 .basics{
+  background-image: url('../img/img-planet-basics.png');
+}
+
+.week9 .css{
+  background-image: url('../img/img-planet-css.png');
+}
+
+.week9 .javascript{
+  background-image: url('../img/img-planet-js.png');
+}
+
+.week9 .managers{
+  background-image: url('../img/img-planet-managers.png');
+}

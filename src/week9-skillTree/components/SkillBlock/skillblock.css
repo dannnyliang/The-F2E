@@ -1,0 +1,66 @@
+.week9 .skill-block{
+  color: #fff;
+  padding: 4px;
+}
+
+.week9 .skill-block .icon i{
+  font-size: 40px;
+}
+
+.week9 .skill-block .icon{
+  width: 60px;
+  height: 60px;
+  background-color: var(--mask-disable);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 4px;
+}
+
+.week9 .skill-block .point{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.week9 .skill-block .point i{
+  font-size: 16px;
+  margin-right: 4px;
+}
+
+.week9 .disable{
+  opacity: 0.2;
+}
+
+.week9 .enable{
+  opacity: 1;
+  cursor: pointer;
+}
+
+.week9 .active .icon{
+  background-color: var(--purple-light);
+  border: 2px solid var(--pink);
+}
+
+.week9 .complete{
+  color: var(--purple);
+}
+
+.week9 .complete-all{
+  color: var(--purple);
+  position: relative;
+}
+
+.week9 .complete-all::before{
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  border-style: solid;
+  border-width: 0 16px 16px 0;
+  border-color: transparent var(--purple) transparent transparent;
+}

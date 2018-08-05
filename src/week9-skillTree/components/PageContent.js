@@ -2,19 +2,19 @@ import React from 'react';
 import { Row, Col } from 'reactstrap';
 import SectionLeft from './SectionLeft';
 import SectionTree from './SectionTree';
-import SectionSkill from './SectionSkill';
+import SectionSkillContainer from '../containers/SectionSkillContainer';
 
 function PageContent() {
   return (
     <Row>
-      <Col>
+      <Col xs="4">
         <SectionLeft />
       </Col>
-      <Col>
+      <Col xs="4">
         <SectionTree />
       </Col>
-      <Col>
-        <SectionSkill />
+      <Col xs="4">
+        <SectionSkillContainer />
       </Col>
     </Row>
   );

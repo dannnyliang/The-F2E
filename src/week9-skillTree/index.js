@@ -10,10 +10,11 @@ function Week9() {
       // background: '#fff',
     }}
     >
-      <Container style={{ 
-        minHeight: `${window.innerHeight}px`, 
-        padding: '40px 0' 
-        }}>
+      <Container style={{
+        minHeight: `${window.innerHeight}px`,
+        padding: '40px 0',
+      }}
+      >
         <PageContent />
       </Container>
     </div>

@@ -1,6 +1,6 @@
 .week9 .section-header{
   color: #FF0093;
-  font-size: 48px;
+  font-size: 56px;
   line-height: 54px;
   font-weight: bold;
   font-style: italic;
@@ -29,4 +29,5 @@
   background-image: url('../img/img-ship-noob.png');
   background-repeat: no-repeat;
   background-position: 0 center;
+  background-size: contain;
 }
